@@ -16,10 +16,13 @@ namespace MvcMovieStore.Controllers
         }
 
         //
-        //  GET: /Store/Browse
-        public string Browse()
+        //  GET: /Store/Browse?genre=?Disco
+        public string Browse(string genre)
         {
-            return "Hello from Store.Browse()";
+            string message =
+                HttpUtility.HtmlEncode("Store.Browse, Genre = " + genre);
+
+            return message;
         }
 
         //
