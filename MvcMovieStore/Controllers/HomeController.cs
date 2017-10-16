@@ -15,7 +15,7 @@ namespace MvcMovieStore.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Editing description.";
 
             return View();
         }
