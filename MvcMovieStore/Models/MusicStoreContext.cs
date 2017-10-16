@@ -24,5 +24,7 @@ namespace MvcMovieStore.Models
         public System.Data.Entity.DbSet<MvcMovieStore.Models.Artist> Artists { get; set; }
 
         public System.Data.Entity.DbSet<MvcMovieStore.Models.Genre> Genres { get; set; }
+
+        public System.Data.Entity.DbSet<MvcMovieStore.Models.Order> Orders { get; set; }
     }
 }
